@@ -8,6 +8,7 @@ h2,
 h3,
 h4,
 h5 {
+font-size: 16px;
 margin: 0;
 }
 ul,ol {
@@ -48,12 +49,12 @@ font-size: 22px;
 
 /* about me section */
 .about-me-section{
-margin: 0 0 40px 0;
+margin: 0 0 20px 0;
 }
 .about-me-profession{
 font-weight: bold;
 line-height: 1.8;
-font-size: 14px;
+font-size: 24px;
 font-weight: 700;
 color: black;
 margin-bottom: 20px;
@@ -88,7 +89,9 @@ font-weight: 700;
 color: black;
 }
 .my-projects-link{
- color: black
+ font-size: 20px;
+ color: black;
+ text-decoration: none;
 }
 .my-projects-text{
  font-weight: normal;
@@ -101,6 +104,15 @@ font-weight: bold;
  font-size: 14px;
  line-height:1.8;
 color:black;
+}
+.my-projects-github-code{
+display: flex;
+justify-content: flex-end;
+font-weight: normal;
+font-size: 14px;
+margin-top: 20px;
+line-height: 1.8;
+color: #FB6D3A;
 }
 /* My work experience section */
 
@@ -170,35 +182,52 @@ color: #FB6D3A;
     margin-bottom:30px;
 }
 /* Sidebar section */
-.contacts-section ,.tech-skills-section ,.soft-skills-section{
-    padding: 30px 0 0 20px;
+.wrapper{
+ margin-right: auto;
+ margin-left: auto;
+ margin-bottom: 15px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.language-wrapper{
+ margin-right: auto;
+ margin-left: auto;
+ padding-left: 10px;
+ padding-right: 10px; 
+}
+.sidebar-item{
+color: white;
+list-style: none;
+}
+.sidebar-item:not(:last-child){
+margin-bottom: 10px;
 }
 .sidebar-section{
-width: 400px;
+padding: 40px 15px;
 background-color:#1E2939;
 }
 .sidebar-title{
- font-style: normal;
 font-weight: bold;
 font-size: 22px;
+margin-bottom: 10px;
 line-height: 1.8;
 color:white;
 }
 .language-skills-section{
-    padding: 20px 0px 30px 20px;
+padding: 20px 0px 30px 20px;
 }
 /* contacts section */
-.contacts-section-type{
-font-size: 14px;
-line-height: 1.8;
+.contacts-text{
+font-size: 18px;
 color:white;
 }
 .contacts-section-link{
-font-size: 14px;
+font-size: 18px;
 color: white;
+text-decoration: none;
 }
 /*Tech-skills-section */
-.tech-skills-list ,.soft-skills-list{
+.sidebar-list{
 list-style: none;
 }
 .tech-skills-item,.soft-skills-item {
@@ -206,6 +235,13 @@ font-size: 14px;
 line-height: 1.8;
 color: white;
 }
+.image-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
 .photo{
-    padding:10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
