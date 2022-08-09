@@ -1,231 +1,276 @@
-body{
-font-family: 'Montserrat', sans-serif;
- background-color: #F5F7FA;
-margin: 0;  }
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+    margin: 0;
+}
+
 p,
 h1,
 h2,
 h3,
 h4,
 h5 {
-margin: 0;
+    margin: 0;
 }
-ul,ol {
-margin: 0;
-padding: 0;
-}    
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
 img {
-display: block;
-height: auto;
-max-width: 100%;
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
- button {
-border: none;
-font: inherit;
-color: inherit;
-background-color: transparent;
+
+button {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
 }
-.main-container{
-display: flex;
-flex-direction:row-reverse;
-width: 1200px;
-background-color: white;
-margin:40px auto;
-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: white;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Main content section */
-.main-content-section{
-padding:40px;
- }
-.main-content-title{
- line-height: 1.8;
- margin-bottom: 10px;
+.main-content-section {
+    padding: 40px;
+}
+
+.main-content-title {
+    line-height: 1.8;
+    margin-bottom: 10px;
 
 }
 
 /* about me section */
-.about-me-section{
-margin: 0 0 20px 0;
+.about-me-section {
+    margin: 0 0 20px 0;
 }
-.about-me-profession{
-font-weight: bold;
-line-height: 1.8;
-font-size: 24px;
-font-weight: 700;
-color: black;
-margin-bottom: 20px;
-} 
-.about-me-name{
-font-weight: bold;
-font-size: 45px;
-line-height: 1.8;
-color: black;
+
+.about-me-profession {
+    font-weight: bold;
+    line-height: 1.8;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
 }
-.my-foreword{
-font-size: 14px;
-line-height: 1.8;
-color: black;
+
+.about-me-name {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1.8;
+    color: black;
 }
-.about-me-description{
- width: 400px;
- font-weight: normal;
- font-size: 14px;
- line-height: 1.8;
- color: black;
+
+.my-foreword {
+    font-size: 14px;
+    line-height: 1.8;
+    color: black;
 }
+
+.about-me-description {
+    width: 400px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    color: black;
+}
+
 /* Main projects section */
-.my-projects-section{
-margin-bottom: 20px;
+.my-projects-section {
+    margin-bottom: 20px;
 }
-.my-project_list{
-line-height: 1.8;
-padding:20px;
+
+.my-project_list {
+    line-height: 1.8;
+    padding: 20px;
 }
-.my-project{
-font-weight: normal;
+
+.my-project {
+    font-weight: normal;
 }
-.my-projects-link{
- font-size: 24px;
- color: black;
- text-decoration: none;
-margin-right: 20px;
+
+.my-projects-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
 }
-.my-projects-text{
- font-weight: normal;
-font-size: 14px;
-line-height: 1.8;
-color: black;
+
+.my-projects-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    color: black;
 }
-.my-projects-bracket{
-font-weight: bold;
-font-size: 14px;
-color:black;
+
+.my-projects-bracket {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
 }
-.my-projects-github-code{
-font-size: 16px;
-color: black;
-cursor: pointer;
-text-decoration: none;
+
+.my-projects-github-code {
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
+
 /* My work experience section */
-.my-company-title{
-font-weight: 400;
-font-size: 20px;
-margin-bottom: 10px;
+.my-company-title {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
-.my-work-experience-section{
- margin-bottom: 20px;
-}  
-.my-work-experience-position{
-font-weight: 400;
-font-size: 18px;
-margin-bottom:5px;
+
+.my-work-experience-section {
+    margin-bottom: 20px;
 }
-.my-work-experience-period{
-font-weight: 400;
-font-size: 14px;
-margin-bottom: 10px;
+
+.my-work-experience-position {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
-.my-devider{
- color:black;
+
+.my-work-experience-period {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
-.my-work-experience-duties{
-padding-left:20px;
+
+.my-devider {
+    color: black;
 }
-.my-work-experience-duty{
-font-size: 14px;
-line-height: 1.8;
+
+.my-work-experience-duties {
+    padding-left: 20px;
+}
+
+.my-work-experience-duty {
+    font-size: 14px;
+    line-height: 1.8;
 }
 
 /* My education section */
-.my-education-wrapper{
-margin-bottom: 20px;
+.my-education-wrapper {
+    margin-bottom: 20px;
 }
-.main-education-title{
-line-height: 1.8;
-margin-bottom: 10px;
+
+.main-education-title {
+    line-height: 1.8;
+    margin-bottom: 10px;
 }
-.my-education-facultet{
-font-weight: 400;
-font-size: 14px;
-margin-bottom: 5px;
+
+.my-education-facultet {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
-.my-education-period-time{
-font-weight: normal;
-font-size: 14px;
-line-height:1.8;
- color: black;
+
+.my-education-period-time {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    color: black;
 }
-.dev{
-color:black;
+
+.dev {
+    color: black;
 }
-.my-education{
-font-weight: 400;
-font-size: 18px;
-margin-bottom: 10px;
+
+.my-education {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
+
 /* Sidebar section */
-.wrapper{
- margin-right: auto;
- margin-left: auto;
- margin-bottom: 15px;
- padding-left: 10px;
- padding-right: 10px;
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.language-wrapper{
- margin-right: auto;
- margin-left: auto;
- padding-left: 10px;
- padding-right: 10px; 
+
+.language-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.sidebar-item{
-color: white;
-list-style: none;
+
+.sidebar-item {
+    color: white;
+    list-style: none;
 }
-.sidebar-item:not(:last-child){
-margin-bottom: 10px;
+
+.sidebar-item:not(:last-child) {
+    margin-bottom: 10px;
 }
-.sidebar-section{
-padding: 40px 15px;
-background-color:#1E2939;
+
+.sidebar-section {
+    padding: 40px 15px;
+    background-color: #1E2939;
 }
-.sidebar-title{
-font-weight: bold;
-font-size: 22px;
-margin-bottom: 10px;
-line-height: 1.8;
-color:white;
+
+.sidebar-title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    color: white;
 }
-.language-skills-section{
-padding: 20px 0px 30px 20px;
+
+.language-skills-section {
+    padding: 20px 0px 30px 20px;
 }
+
 /* contacts section */
-.contacts-text{
-font-size: 18px;
-color:white;
+.contacts-text {
+    font-size: 18px;
+    color: white;
 }
-.contacts-section-link{
-font-size: 18px;
-color: white;
-text-decoration: none;
+
+.contacts-section-link {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
 }
+
 /*Tech-skills-section */
-.sidebar-list{
-list-style: none;
+.sidebar-list {
+    list-style: none;
 }
-.tech-skills-item,.soft-skills-item {
-font-size: 14px;
-line-height: 1.8;
-color: white;
+
+.tech-skills-item,
+.soft-skills-item {
+    font-size: 14px;
+    line-height: 1.8;
+    color: white;
 }
-.image-wrapper{
- margin-left: auto;
-margin-right: auto;
-margin-bottom: 20px;
+
+.image-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
-.photo{
-display: block;
-max-width: 100%;
-height: auto;
+
+.photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
