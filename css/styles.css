@@ -35,6 +35,7 @@ button {
     display: flex;
     flex-direction: row-reverse;
     background-color: white;
+    width: 1200px;
 }
 
 /* Main content section */
