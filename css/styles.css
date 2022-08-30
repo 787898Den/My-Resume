@@ -35,7 +35,7 @@ button {
     display: flex;
     flex-direction: row-reverse;
     width: 1120px;
-    margin:  40px auto;
+    margin:auto;
     background:white;
     box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
 }
@@ -56,23 +56,20 @@ button {
 }
 
 .about-me-profession {
-    font-weight: bold;
-    line-height: 1.8;
-    font-size: 24px;
     font-weight: 700;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .about-me-name {
     font-weight: bold;
-    font-size: 45px;
+    font-size: 42px;
     line-height: 1.8;
     color: black;
 }
 
 .my-foreword {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.8;
     color: black;
 }
